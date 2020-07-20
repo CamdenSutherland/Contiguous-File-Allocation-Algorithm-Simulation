@@ -8,9 +8,13 @@ simulate <FF|WF|BF> -NMAX <number> -TMAX <number> -JMAX <number> -PALLOC <number
 Algorithm <FF|WF|BF>: FF: First Fit | WF: Worst Fit | BF: Best Fit
 
 NMAX - Maximum number of storage blocks
+
 TMAX - Maximum number of time units to simulate over
+
 JMAX - Maximum number of contiguous storage blocks a job can request
+
 PALLOC - Probability of a new job for each time unit
+
 PEDALLOC - Probability of an allocated job is deallocated for each time unit
 
 ## Examble:
